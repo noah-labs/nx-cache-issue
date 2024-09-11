@@ -1,0 +1,130 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.7.2",
+  "deps": {
+    "@nx/eslint": "19.7.2",
+    "@nx/eslint-plugin": "19.7.2",
+    "@nx/js": "19.7.2",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/node": "18.16.9",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "eslint": "~8.57.0",
+    "eslint-config-prettier": "^9.0.0",
+    "nx": "19.7.2",
+    "prettier": "^2.6.2",
+    "typescript": "~5.5.2"
+  },
+  "pathMappings": {
+    "mylib": [
+      "mylib/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
+  "pluginsConfig": {
+    "@nx/js": {
+      "analyzeSourceFiles": false
+    }
+  },
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "6359271932961517713"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4134969992917317260"
+      },
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "3699604027908797294"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "9773565372686775399"
+      },
+      {
+        "file": "README.md",
+        "hash": "13333325859612478386"
+      },
+      {
+        "file": "nx.json",
+        "hash": "3330962279907690693"
+      },
+      {
+        "file": "package.json",
+        "hash": "14803162073744311019"
+      },
+      {
+        "file": "packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "1092115985002038418"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "7964216924429015234"
+      }
+    ],
+    "projectFileMap": {
+      "mylib": [
+        {
+          "file": "mylib/.eslintrc.json",
+          "hash": "11808533155536463924"
+        },
+        {
+          "file": "mylib/README.md",
+          "hash": "6032294297613291536"
+        },
+        {
+          "file": "mylib/project.json",
+          "hash": "5025267980520510400"
+        },
+        {
+          "file": "mylib/src/index.ts",
+          "hash": "2210606635595391551"
+        },
+        {
+          "file": "mylib/src/lib/mylib.ts",
+          "hash": "1033303555598071470"
+        },
+        {
+          "file": "mylib/tsconfig.json",
+          "hash": "14391392062619267752"
+        },
+        {
+          "file": "mylib/tsconfig.lib.json",
+          "hash": "12638394678519115349"
+        }
+      ]
+    }
+  }
+}
