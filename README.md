@@ -1,4 +1,4 @@
-Create an Nx Project
+### Create an Nx Project
 1. npx create-nx-workspace --pm yarn
 2. Name the workspace
 3. Select none for 'stack'
@@ -8,12 +8,13 @@ Create an Nx Project
 
 (In my case here, I also removed the .nx/workspace-data folder from the git ignore so I could trace changes)
 
-Create a JS Lib
+### Create a JS Lib
 1. npx nx g @nx/js:lib mylib 
 2. Select "None"
 3. Select "None"
 4. Select "As provided"
 
+### Run the tasks
 1. Run `yarn nx run-many -t lint`
 2. This populates the local cache
 3. Run `yarn nx run-many -t lint` again, result is cached
