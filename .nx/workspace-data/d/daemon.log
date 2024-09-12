@@ -1,145 +1,89 @@
-[NX Daemon Server] - 2024-09-11T16:39:46.856Z - Started listening on: /var/folders/gr/94gk9mr11w90b8q6jt1701sm0000gn/T/59b12b6e20d3a37f16ac/d.sock
-[NX Daemon Server] - 2024-09-11T16:39:46.857Z - [WATCHER]: Subscribed to changes within: /Users/chrissargent/Sites/nx-cache-issue (native)
-[NX Daemon Server] - 2024-09-11T16:39:46.862Z - Established a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-11T16:39:46.862Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-11T16:39:46.863Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-11T16:39:46.864Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-09-11T16:39:47.306Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2024-09-11T16:39:47.306Z - [REQUEST]: 
-[NX Daemon Server] - 2024-09-11T16:39:47.306Z - [REQUEST]: 
-[NX Daemon Server] - 2024-09-11T16:39:47.311Z - Time taken for 'loadNxPlugins' 441.97154099999995ms
-[NX Daemon Server] - 2024-09-11T16:39:47.312Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-11T16:39:47.312Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-11T16:39:47.312Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-11T16:39:47.313Z - [REQUEST]: Responding to the client. handleGlob
-[NX Daemon Server] - 2024-09-11T16:39:47.313Z - Done responding to the client handleGlob
-[NX Daemon Server] - 2024-09-11T16:39:47.313Z - Handled GLOB. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-11T16:39:47.372Z - [REQUEST]: Responding to the client. handleHashGlob
-[NX Daemon Server] - 2024-09-11T16:39:47.372Z - Done responding to the client handleHashGlob
-[NX Daemon Server] - 2024-09-11T16:39:47.372Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-11T16:39:47.373Z - [REQUEST]: Responding to the client. handleHashGlob
-[NX Daemon Server] - 2024-09-11T16:39:47.373Z - Done responding to the client handleHashGlob
-[NX Daemon Server] - 2024-09-11T16:39:47.373Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-11T16:39:47.742Z - Time taken for 'build-project-configs' 425.4167080000001ms
-[NX Daemon Server] - 2024-09-11T16:39:47.752Z - [SYNC]: collect registered sync generators
-[NX Daemon Server] - 2024-09-11T16:39:47.753Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-09-11T16:39:47.753Z - Time taken for 'total for creating and serializing project graph' 888.928125ms
-[NX Daemon Server] - 2024-09-11T16:39:47.754Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-09-11T16:39:47.754Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 889. Response time: 1.
-[NX Daemon Server] - 2024-09-11T16:39:47.779Z - [REQUEST]: Responding to the client. handleHashTasks
-[NX Daemon Server] - 2024-09-11T16:39:47.779Z - Done responding to the client handleHashTasks
-[NX Daemon Server] - 2024-09-11T16:39:47.779Z - Handled HASH_TASKS. Handling time: 3. Response time: 0.
-[NX Daemon Server] - 2024-09-11T16:39:48.363Z - [REQUEST]: Responding to the client. recordOutputsHash
-[NX Daemon Server] - 2024-09-11T16:39:48.363Z - Done responding to the client recordOutputsHash
-[NX Daemon Server] - 2024-09-11T16:39:48.363Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-11T16:39:48.399Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
-[NX Daemon Server] - 2024-09-11T16:39:48.399Z - Done responding to the client handleRecordTaskRuns
-[NX Daemon Server] - 2024-09-11T16:39:48.399Z - Handled WRITE_TASK_RUNS_TO_HISTORY. Handling time: 13. Response time: 0.
-[NX Daemon Server] - 2024-09-11T16:39:48.400Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
-[NX Daemon Server] - 2024-09-11T16:39:48.400Z - Done responding to the client handleGetFlakyTasks
-[NX Daemon Server] - 2024-09-11T16:39:48.400Z - Handled GET_TASK_HISTORY_FOR_HASHES. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-11T16:39:48.403Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-11T16:39:50.621Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-11T16:39:50.622Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-11T16:39:50.623Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-11T16:39:50.624Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-09-11T16:39:50.624Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-09-11T16:39:50.624Z - Time taken for 'total for creating and serializing project graph' 0.19958300000007512ms
-[NX Daemon Server] - 2024-09-11T16:39:50.627Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-09-11T16:39:50.627Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
-[NX Daemon Server] - 2024-09-11T16:39:50.647Z - [REQUEST]: Responding to the client. handleHashTasks
-[NX Daemon Server] - 2024-09-11T16:39:50.647Z - Done responding to the client handleHashTasks
-[NX Daemon Server] - 2024-09-11T16:39:50.647Z - Handled HASH_TASKS. Handling time: 1. Response time: 0.
-[NX Daemon Server] - 2024-09-11T16:39:50.675Z - [REQUEST]: Responding to the client. recordOutputsHash
-[NX Daemon Server] - 2024-09-11T16:39:50.675Z - Done responding to the client recordOutputsHash
-[NX Daemon Server] - 2024-09-11T16:39:50.675Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-11T16:39:50.677Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
-[NX Daemon Server] - 2024-09-11T16:39:50.678Z - Done responding to the client handleRecordTaskRuns
-[NX Daemon Server] - 2024-09-11T16:39:50.678Z - Handled WRITE_TASK_RUNS_TO_HISTORY. Handling time: 0. Response time: 1.
-[NX Daemon Server] - 2024-09-11T16:39:50.678Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
-[NX Daemon Server] - 2024-09-11T16:39:50.678Z - Done responding to the client handleGetFlakyTasks
-[NX Daemon Server] - 2024-09-11T16:39:50.678Z - Handled GET_TASK_HISTORY_FOR_HASHES. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-11T16:39:50.681Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-12T09:19:47.769Z - Started listening on: /var/folders/gr/94gk9mr11w90b8q6jt1701sm0000gn/T/59b12b6e20d3a37f16ac/d.sock
-[NX Daemon Server] - 2024-09-12T09:19:47.770Z - [WATCHER]: Subscribed to changes within: /Users/chrissargent/Sites/nx-cache-issue (native)
-[NX Daemon Server] - 2024-09-12T09:19:47.771Z - Established a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-12T09:19:47.771Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-12T09:19:47.772Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-12T09:19:47.773Z - [REQUEST]: Responding to the client. Shutdown initiated
-[NX Daemon Server] - 2024-09-12T09:19:47.773Z - Done responding to the client Shutdown initiated
-[NX Daemon Server] - 2024-09-12T09:19:47.773Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-12T09:19:47.775Z - Closed a connection. Number of open connections: 0
-[NX Daemon Server] - 2024-09-12T09:19:47.775Z - [WATCHER]: Stopping the watcher for /Users/chrissargent/Sites/nx-cache-issue (sources)
-[NX Daemon Server] - 2024-09-12T09:19:47.775Z - [WATCHER]: Stopping the watcher for /Users/chrissargent/Sites/nx-cache-issue (outputs)
-[NX Daemon Server] - 2024-09-12T09:19:58.499Z - Started listening on: /var/folders/gr/94gk9mr11w90b8q6jt1701sm0000gn/T/59b12b6e20d3a37f16ac/d.sock
-[NX Daemon Server] - 2024-09-12T09:19:58.500Z - [WATCHER]: Subscribed to changes within: /Users/chrissargent/Sites/nx-cache-issue (native)
-[NX Daemon Server] - 2024-09-12T09:19:58.501Z - Established a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-12T09:19:58.501Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-12T09:19:58.502Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-12T09:19:58.503Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-09-12T09:19:58.560Z - [WATCHER]: Processing file changes in outputs
-[NX Daemon Server] - 2024-09-12T09:19:58.938Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2024-09-12T09:19:58.938Z - [REQUEST]: 
-[NX Daemon Server] - 2024-09-12T09:19:58.938Z - [REQUEST]: 
-[NX Daemon Server] - 2024-09-12T09:19:58.942Z - Time taken for 'loadNxPlugins' 434.284ms
-[NX Daemon Server] - 2024-09-12T09:19:58.943Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-12T09:19:58.943Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-12T09:19:58.943Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-12T09:19:58.944Z - [REQUEST]: Responding to the client. handleGlob
-[NX Daemon Server] - 2024-09-12T09:19:58.944Z - Done responding to the client handleGlob
-[NX Daemon Server] - 2024-09-12T09:19:58.944Z - Handled GLOB. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-12T09:19:59.001Z - [REQUEST]: Responding to the client. handleHashGlob
-[NX Daemon Server] - 2024-09-12T09:19:59.001Z - Done responding to the client handleHashGlob
-[NX Daemon Server] - 2024-09-12T09:19:59.001Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
-[NX Daemon Server] - 2024-09-12T09:19:59.001Z - [REQUEST]: Responding to the client. handleHashGlob
-[NX Daemon Server] - 2024-09-12T09:19:59.001Z - Done responding to the client handleHashGlob
-[NX Daemon Server] - 2024-09-12T09:19:59.001Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-12T09:19:59.019Z - Time taken for 'build-project-configs' 70.28854199999995ms
-[NX Daemon Server] - 2024-09-12T09:19:59.025Z - [SYNC]: collect registered sync generators
-[NX Daemon Server] - 2024-09-12T09:19:59.025Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-09-12T09:19:59.025Z - Time taken for 'total for creating and serializing project graph' 522.584833ms
-[NX Daemon Server] - 2024-09-12T09:19:59.026Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-09-12T09:19:59.026Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 522. Response time: 1.
-[NX Daemon Server] - 2024-09-12T09:19:59.028Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-12T09:20:06.239Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-12T09:20:06.240Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-12T09:20:06.240Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-12T09:20:06.241Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-09-12T09:20:06.241Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-09-12T09:20:06.241Z - Time taken for 'total for creating and serializing project graph' 0.166374999999789ms
-[NX Daemon Server] - 2024-09-12T09:20:06.245Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-09-12T09:20:06.245Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
-[NX Daemon Server] - 2024-09-12T09:20:06.268Z - [REQUEST]: Responding to the client. handleHashTasks
-[NX Daemon Server] - 2024-09-12T09:20:06.268Z - Done responding to the client handleHashTasks
-[NX Daemon Server] - 2024-09-12T09:20:06.268Z - Handled HASH_TASKS. Handling time: 3. Response time: 0.
-[NX Daemon Server] - 2024-09-12T09:20:07.032Z - [REQUEST]: Responding to the client. recordOutputsHash
-[NX Daemon Server] - 2024-09-12T09:20:07.032Z - Done responding to the client recordOutputsHash
-[NX Daemon Server] - 2024-09-12T09:20:07.032Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-12T09:20:07.069Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
-[NX Daemon Server] - 2024-09-12T09:20:07.069Z - Done responding to the client handleRecordTaskRuns
-[NX Daemon Server] - 2024-09-12T09:20:07.069Z - Handled WRITE_TASK_RUNS_TO_HISTORY. Handling time: 15. Response time: 0.
-[NX Daemon Server] - 2024-09-12T09:20:07.070Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
-[NX Daemon Server] - 2024-09-12T09:20:07.070Z - Done responding to the client handleGetFlakyTasks
-[NX Daemon Server] - 2024-09-12T09:20:07.070Z - Handled GET_TASK_HISTORY_FOR_HASHES. Handling time: 0. Response time: 1.
-[NX Daemon Server] - 2024-09-12T09:20:07.072Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-12T09:20:08.856Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-12T09:20:08.857Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-09-12T09:20:08.857Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-09-12T09:20:08.858Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-09-12T09:20:08.859Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-09-12T09:20:08.859Z - Time taken for 'total for creating and serializing project graph' 0.18958399999974063ms
-[NX Daemon Server] - 2024-09-12T09:20:08.862Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-09-12T09:20:08.862Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 3.
-[NX Daemon Server] - 2024-09-12T09:20:08.882Z - [REQUEST]: Responding to the client. handleHashTasks
-[NX Daemon Server] - 2024-09-12T09:20:08.882Z - Done responding to the client handleHashTasks
-[NX Daemon Server] - 2024-09-12T09:20:08.882Z - Handled HASH_TASKS. Handling time: 1. Response time: 0.
-[NX Daemon Server] - 2024-09-12T09:20:08.909Z - [REQUEST]: Responding to the client. recordOutputsHash
-[NX Daemon Server] - 2024-09-12T09:20:08.909Z - Done responding to the client recordOutputsHash
-[NX Daemon Server] - 2024-09-12T09:20:08.909Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-12T09:20:08.911Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
-[NX Daemon Server] - 2024-09-12T09:20:08.911Z - Done responding to the client handleRecordTaskRuns
-[NX Daemon Server] - 2024-09-12T09:20:08.911Z - Handled WRITE_TASK_RUNS_TO_HISTORY. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-12T09:20:08.912Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
-[NX Daemon Server] - 2024-09-12T09:20:08.912Z - Done responding to the client handleGetFlakyTasks
-[NX Daemon Server] - 2024-09-12T09:20:08.912Z - Handled GET_TASK_HISTORY_FOR_HASHES. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-09-12T09:20:08.914Z - Closed a connection. Number of open connections: 1
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Metadata(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/d/daemon.log", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Metadata(Extended))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/d/daemon.log", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Metadata(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/d/daemon.log", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Metadata(Extended))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/d/daemon.log", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/mylib/src/index.ts", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: event passed all checks event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/mylib/src/index.ts", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/mylib/src/index.ts", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: event passed all checks event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/mylib/src/index.ts", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watcher: origin_path="/Users/chrissargent/Sites/nx-cache-issue/"
+TRACE nx::native::watch::watcher: origin_path="/Users/chrissargent/Sites/nx-cache-issue/"
+TRACE nx::native::watch::watcher: Base collection that will be sent ctx.value={"/Users/chrissargent/Sites/nx-cache-issue/mylib/src/index.ts": WatchEventInternal { path: "/Users/chrissargent/Sites/nx-cache-issue/mylib/src/index.ts", type: delete, origin: "/Users/chrissargent/Sites/nx-cache-issue/" }}
+TRACE nx::native::watch::watcher: sending to node watch_events=[WatchEvent { path: "mylib/src/index.ts", type: delete }]
+TRACE nx::native::hasher: Reading "/Users/chrissargent/Sites/nx-cache-issue/yarn.lock" to hash
+TRACE nx::native::hasher: Hashing "/Users/chrissargent/Sites/nx-cache-issue/yarn.lock"
+TRACE nx::native::hasher: Hashed file "/Users/chrissargent/Sites/nx-cache-issue/yarn.lock" - "7964216924429015234"
+[NX Daemon Server] - 2024-09-12T10:39:21.833Z - [WATCHER]: mylib/src/index.ts was deleted
+TRACE nx::native::watch::watcher: Base collection that will be sent ctx.value={"/Users/chrissargent/Sites/nx-cache-issue/mylib/src/index.ts": WatchEventInternal { path: "/Users/chrissargent/Sites/nx-cache-issue/mylib/src/index.ts", type: delete, origin: "/Users/chrissargent/Sites/nx-cache-issue/" }}
+TRACE nx::native::watch::watcher: sending to node watch_events=[WatchEvent { path: "mylib/src/index.ts", type: delete }]
+[NX Daemon Server] - 2024-09-12T10:39:21.834Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-12T10:39:21.938Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-12T10:39:21.939Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-12T10:39:21.940Z - [REQUEST]: mylib/src/index.ts
+TRACE nx::native::workspace::context: waiting for files to be available
+TRACE nx::native::workspace::context: files are available
+TRACE nx::native::glob: converted globs globs=["{**/.eslintrc,**/.eslintrc.js,**/.eslintrc.cjs,**/.eslintrc.yaml,**/.eslintrc.yml,**/.eslintrc.json,**/eslint.config.js,**/eslint.config.cjs,**/project.json,**/package.json}", "{yarn.lock,package-lock.json,pnpm-lock.yaml,bun.lockb}", "{package.json,**/package.json,project.json,**/project.json}", "{project.json,**/project.json}"] result=["**/.eslintrc", "**/.eslintrc.js", "**/.eslintrc.cjs", "**/.eslintrc.yaml", "**/.eslintrc.yml", "**/.eslintrc.json", "**/eslint.config.js", "**/eslint.config.cjs", "**/project.json", "**/package.json", "yarn.lock", "package-lock.json", "pnpm-lock.yaml", "bun.lockb", "package.json", "**/package.json", "project.json", "**/project.json", "project.json", "**/project.json"]
+TRACE nx::native::hasher: Reading "/Users/chrissargent/Sites/nx-cache-issue/yarn.lock" to hash
+TRACE nx::native::hasher: Hashing "/Users/chrissargent/Sites/nx-cache-issue/yarn.lock"
+TRACE nx::native::hasher: Hashed file "/Users/chrissargent/Sites/nx-cache-issue/yarn.lock" - "7964216924429015234"
+TRACE nx::native::workspace::context: waiting for files to be available
+TRACE nx::native::workspace::context: files are available
+TRACE nx::native::glob: converted globs globs=["**/*.{ts,tsx,js,jsx,html,vue}"] result=["**/*.{ts,tsx,js,jsx,html,vue}"]
+[NX Daemon Server] - 2024-09-12T10:39:21.957Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-12T10:39:21.957Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-12T10:39:21.957Z - Handled GLOB. Handling time: 7. Response time: 0.
+[NX Daemon Server] - 2024-09-12T10:39:21.957Z - Time taken for 'hash changed files from watcher' 0.20758400001795962ms
+TRACE nx::native::hasher: Reading "/Users/chrissargent/Sites/nx-cache-issue/yarn.lock" to hash
+TRACE nx::native::hasher: Hashing "/Users/chrissargent/Sites/nx-cache-issue/yarn.lock"
+TRACE nx::native::hasher: Hashed file "/Users/chrissargent/Sites/nx-cache-issue/yarn.lock" - "7964216924429015234"
+TRACE nx::native::workspace::context: waiting for files to be available
+TRACE nx::native::workspace::context: files are available
+TRACE nx::native::glob: converted globs globs=["**/*", ".eslintrc.json", "mylib/.eslintrc.json", ".eslintignore"] result=["**/*", ".eslintrc.json", "mylib/.eslintrc.json", ".eslintignore"]
+[NX Daemon Server] - 2024-09-12T10:39:21.961Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-09-12T10:39:21.962Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-09-12T10:39:21.962Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+TRACE nx::native::hasher: Reading "/Users/chrissargent/Sites/nx-cache-issue/yarn.lock" to hash
+TRACE nx::native::hasher: Hashing "/Users/chrissargent/Sites/nx-cache-issue/yarn.lock"
+TRACE nx::native::hasher: Hashed file "/Users/chrissargent/Sites/nx-cache-issue/yarn.lock" - "7964216924429015234"
+TRACE nx::native::workspace::context: waiting for files to be available
+TRACE nx::native::workspace::context: files are available
+TRACE nx::native::glob: converted globs globs=["mylib/**/*", "mylib/.eslintignore"] result=["mylib/**/*", "mylib/.eslintignore"]
+[NX Daemon Server] - 2024-09-12T10:39:21.963Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-09-12T10:39:21.963Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-09-12T10:39:21.963Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+TRACE nx::native::workspace::context: updating project files
+TRACE nx::native::workspace::context: {"mylib": "mylib"}
+TRACE nx::native::workspace::context: adding 0 updated files to project files
+TRACE nx::native::workspace::context: removing 1 deleted files from project files
+TRACE nx::native::workspace::context: removing file: "mylib/src/index.ts" from project
+TRACE nx::native::workspace::context: waiting for files to be available
+TRACE nx::native::workspace::context: files are available
+[NX Daemon Server] - 2024-09-12T10:39:21.980Z - Time taken for 'build-project-configs' 35.71795900000143ms
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Metadata(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/eslint-4393011795395336301.hash", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Data(Content))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/eslint-4393011795395336301.hash", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Metadata(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/eslint-4393011795395336301.hash", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Data(Content))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/eslint-4393011795395336301.hash", file_type: Some(File) }], metadata: {} }
+[NX Daemon Server] - 2024-09-12T10:39:21.991Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-12T10:39:21.991Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-12T10:39:21.991Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-12T10:39:21.991Z - Time taken for 'total execution time for createProjectGraph()' 10.253208000009181ms
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Create(File)), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/project-graph.json~8c9ddb5e", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Data(Content))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/project-graph.json~8c9ddb5e", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/project-graph.json", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Data(Content))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/file-map.json~8c9ddb5e", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/file-map.json", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/file-map.json~8c9ddb5e", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/file-map.json", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Create(File)), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/file-map.json~8c9ddb5e", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/project-graph.json~8c9ddb5e", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Create(File)), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/project-graph.json~8c9ddb5e", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Data(Content))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/project-graph.json~8c9ddb5e", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Create(File)), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/file-map.json~8c9ddb5e", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/project-graph.json", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Data(Content))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/file-map.json~8c9ddb5e", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/file-map.json", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/file-map.json~8c9ddb5e", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/file-map.json", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/project-graph.json", file_type: Some(File) }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/project-graph.json~8c9ddb5e", file_type: None }], metadata: {} }
+TRACE nx::native::watch::watch_filterer: checking if event is valid event=Event { tags: [Source(Filesystem), FileEventKind(Modify(Name(Any))), Path { path: "/Users/chrissargent/Sites/nx-cache-issue/.nx/workspace-data/project-graph.json", file_type: Some(File) }], metadata: {} }
