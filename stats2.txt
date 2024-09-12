@@ -1,0 +1,58 @@
+$ md5 mylib/src/lib/mylib.ts
+MD5 (mylib/src/lib/mylib.ts) = 2b20557604d5a5eec8aa3115a0015ca1
+
+$ shasum mylib/src/lib/mylib.ts
+e9bac0147a2ad396bf2a9426b75177fecc2fd922  mylib/src/lib/mylib.ts
+
+$ shasum -a 256 mylib/src/lib/mylib.ts
+ad1ff0a34e296e58115adb4370573e3b9cf2af2b936481a6d8652ef0116ffaed  mylib/src/lib/mylib.ts
+
+$ stat -x mylib/src/lib/mylib.ts
+  File: "mylib/src/lib/mylib.ts"
+  Size: 54           FileType: Regular File
+  Mode: (0644/-rw-r--r--)         Uid: (  501/chrissargent)  Gid: (   20/   staff)
+Device: 1,16   Inode: 284942840    Links: 1
+Access: Thu Sep 12 10:44:56 2024
+Modify: Thu Sep 12 10:27:17 2024
+Change: Thu Sep 12 10:44:55 2024
+ Birth: Thu Sep 12 10:27:17 2024
+
+$ ls -lO@ mylib/src/lib/mylib.ts
+-rw-r--r--  1 chrissargent  staff  - 54 12 Sep 10:27 mylib/src/lib/mylib.ts
+
+$ mdls mylib/src/lib/mylib.ts
+_kMDItemDisplayNameWithExtensions  = "mylib.ts"
+kMDItemContentCreationDate         = 2024-09-12 08:27:17 +0000
+kMDItemContentCreationDate_Ranking = 2024-09-12 00:00:00 +0000
+kMDItemContentModificationDate     = 2024-09-12 08:27:17 +0000
+kMDItemContentType                 = "public.mpeg-2-transport-stream"
+kMDItemContentTypeTree             = (
+    "public.mpeg-2-transport-stream",
+    "public.movie",
+    "public.audiovisual-content",
+    "public.data",
+    "public.item",
+    "public.content"
+)
+kMDItemDateAdded                   = 2024-09-12 08:44:55 +0000
+kMDItemDisplayName                 = "mylib.ts"
+kMDItemDocumentIdentifier          = 0
+kMDItemFSContentChangeDate         = 2024-09-12 08:27:17 +0000
+kMDItemFSCreationDate              = 2024-09-12 08:27:17 +0000
+kMDItemFSCreatorCode               = ""
+kMDItemFSFinderFlags               = 0
+kMDItemFSHasCustomIcon             = (null)
+kMDItemFSInvisible                 = 0
+kMDItemFSIsExtensionHidden         = 0
+kMDItemFSIsStationery              = (null)
+kMDItemFSLabel                     = 0
+kMDItemFSName                      = "mylib.ts"
+kMDItemFSNodeCount                 = (null)
+kMDItemFSOwnerGroupID              = 20
+kMDItemFSOwnerUserID               = 501
+kMDItemFSSize                      = 54
+kMDItemFSTypeCode                  = ""
+kMDItemInterestingDate_Ranking     = 2024-09-12 00:00:00 +0000
+kMDItemKind                        = "MPEG-2 Transport Stream"
+kMDItemLogicalSize                 = 54
+kMDItemPhysicalSize                = 4096
